@@ -1,0 +1,222 @@
+
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: Roboto;
+    src: url(Roboto/Roboto-Regular.ttf);
+    margin: 0px;  /* makes colored boxes reach edge of page*/
+} 
+
+.container {
+    display: wrap;
+    flex-direction: column;
+}
+
+.navy {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding-left: 180px;
+    padding-right: 180px;
+
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    justify-items: center;
+}
+
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.links{
+    font-size: 18px;
+    justify-content: space-between;
+    font-weight: 350;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    margin: 0px;
+
+}
+
+.intro{
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 80px;
+    align-items: center;
+    gap: 50px   
+}
+
+.leftnavy{
+    display: flex;
+    flex-direction: column;
+}
+
+.heromain{
+    display: flex;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.herotext{
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 350;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    width: 120px;
+    border: none;
+    color: white; 
+    margin: 10px 0px;
+    padding: 6px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+img {
+    display: flex;
+    width: 580px;
+}
+
+.white1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 120px;
+}
+.title {
+    margin: 50px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+    padding: 0px 250px;
+    gap: 50px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    max-width: 160px; /*IMPORTANT!! Need to set max width so items dont squeeze or grow when webpage is scaled up or down*/
+}
+
+.art {
+    display: flex;
+    width: 160px; 
+    border-radius: 6px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: #1F2937;
+    margin-top: 6px;
+}
+
+.grey {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 120px 325px;
+
+}
+
+.quote {
+    font-family: Roboto;
+    src: url(Roboto/Roboto-LightItalic.ttf);
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+
+}
+
+.author {
+    display: flex;
+    justify-content: end;
+    color: #1F2937;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.whitecontainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 100px 200px;
+}
+
+.blue {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 40px 100px;
+    border-radius: 6px;
+    
+}
+
+.calltitle {
+    font-size: 20px;
+    font-weight: 500;
+    color:#F9FAF8
+}
+
+.calltext {
+    color:#E5E7EB;
+}
+
+
+
+.rightblue {
+    display: flex;
+    align-content: center; 
+}
+
+.leftblue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.sign-up-2 {
+    background-color: #3882F6;
+    width: 120px;
+    border: 2px solid white;
+    color: white; 
+    margin: 10px 0px;
+    padding: 6px;
+    border-radius: 6px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #1F2937;
+    padding: 30px;
+    color:#E5E7EB;
+}
